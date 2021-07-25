@@ -1,0 +1,324 @@
+button:hover {
+  cursor: pointer;
+}
+input, textarea {
+  background: rgba(0, 0, 0, 0);
+  resize: none;
+  border: 0px solid;
+}
+h3, h6, input, textarea {
+  color: #ffc6fe
+}
+.Character {
+  margin: 5vh 0;
+  border: rgb(52, 39, 55) 3vw solid;
+  height: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  width: 80vw;
+  background: rgba(40, 44, 52, 1);
+  min-height: 50vh;
+  text-align: center;
+}
+.short input, .short textarea {
+  width: 100%;
+  padding-bottom: 0.7vw;
+  font-size: 1.2vw;
+  letter-spacing: 0.1vw;
+  border-bottom: #d0fff6 1px solid;
+  text-align: center;
+  text-transform: capitalize !important;
+}
+.smallColSpanAcc {
+  text-align: left;
+}
+.smallColSpanAcc p {
+  width: 60%;
+  text-align: center;
+}
+.credits {
+  display: inline-block;
+  font-weight: 900;
+  width: 30%;
+  line-height: 1.2vw;
+  font-size: 2vw;
+  padding-bottom: 1.1vw;
+  border-bottom: #d0fff6 1px solid;
+  padding-left: 10%;
+}
+.smallColSpanAcc input {
+  display: inline-block;
+  text-align: left;
+  width: 60%;
+  padding-bottom: 0.7vw;
+  line-height: 1.3vw;
+  font-size: 2vw;
+  letter-spacing: 0.1vw;
+  border-bottom: #d0fff6 1px solid;
+  text-align: center;
+  text-transform: none !important;
+}
+.smallColSpan input {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  padding-bottom: 0.7vw;
+  font-size: 1.2vw;
+  letter-spacing: 0.1vw;
+  border-bottom: #d0fff6 1px solid;
+  text-align: center;
+  text-transform: none !important;
+}
+h5 {
+  display: inline-block;
+  width: 34%;
+  padding-bottom: 0.7vw;
+  font-size: 1.2vw;
+  letter-spacing: 0.1vw;
+  text-transform: capitalize !important;
+}
+p {
+  font-size: 0.8vw;
+  letter-spacing: 0.08vw;
+  text-transform: uppercase;
+}
+.long input, .long textarea {
+  text-align: center;
+  text-transform: none;
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 0.7vw;
+  font-size: 1vw;
+  letter-spacing: 0.1vw;
+  border-bottom: #d0fff6 1px solid;
+}
+.Character .posDiv {
+  width: 78vw;
+  padding: 1vw;
+  position: relative;
+}
+.Character .posDiv .head {
+  text-align: left;
+}
+.hBigCol, .hSmallCol {
+  display: inline-block;
+  vertical-align: top;
+  margin: 1vw 0;
+}
+.hBigCol {
+  width: 46vw;
+  margin-right: 1vw;
+}
+.hSmallCol {
+  width: 23vw;
+  margin-right: 1vw;
+}
+.hBigCol .long {
+  display: block;
+  margin: 0 auto;
+  width: 44vw;
+}
+.hBigCol .short {
+  display: inline-block;
+  vertical-align: top;
+  margin: 1vw;
+  width: 21vw;
+}
+.hSmallCol span {
+  display: block;
+  margin: 1vw auto;
+  width: 100%
+}
+.dotted {
+  vertical-align: center;
+  text-align: left;
+}
+.notation {
+  display: inline-block;
+  width: 66%;
+}
+.Squares {
+  text-align: right;
+}
+.Squares button {
+  font-size: 1vw;
+  text-indent: 0.1vw;
+  line-height: 1vw;
+  display: inline-block;
+  width: 1vw;
+  height: 1vw;
+  border: #ffc6fe solid 1px;
+  margin: 0.2vw;
+  background: rgba(0, 0, 0, 0);
+}
+.Squares {
+  text-align: right;
+}
+.Dots button {
+  background: rgba(0, 0, 0, 0);
+  line-height: 1vw;
+  display: inline-block;
+  width: 1vw;
+  height: 1vw;
+  border: #ffc6fe solid 1px;
+  border-radius: 100%;
+  margin: 0.2vw;
+}
+.Squares .filled, .Dots .filled {
+  background: #ffc6fe
+}
+.hMarker {
+  transform:translateY(-30%);
+}
+.oneShort {
+  text-align: right;
+}
+.oneShort input {
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  text-transform: none;
+  display: inline-block;
+  padding-bottom: 0.7vw;
+  font-size: 1vw;
+  letter-spacing: 0.1vw;
+  border-bottom: #d0fff6 1px solid;
+}
+.shortMarker {
+  text-align: left;
+  width: 40%;
+  display: inline-block;
+}
+.shortMarker h5 {
+  display: inline-block;
+  width: 100%;
+  transform: translateX(-25%);
+  text-align: left;
+}
+h3 {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.3vw;
+  letter-spacing: 0.15vw;
+}
+.Attributes h3 {
+  padding-bottom: 4vw;
+}
+.aSmallCol {
+  position: relative;
+  margin-left: 2vw;
+  display: inline-block;
+  width: 22vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-right: 1vw;
+  border-right: #d0fff6 1px solid;
+}
+.aSmallCol .dotted h5 {
+  text-transform: uppercase !important;
+  font-size: 0.8vw !important;
+  display: inline-block;
+}
+
+.aSmallCol .dotted .notation {
+  text-align: right;
+  width: 60%;
+  margin-right: 1vw;
+}
+.aSmallCol:last-child {
+  border-right: #d0fff6 0px solid;
+}
+.pd h6 {
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1vw;
+  letter-spacing: 0.08vw;
+}
+.pd {
+  display: block;
+  text-align: left;
+  position: absolute;
+  transform: translateY(-3vw);
+}
+.pdattr {
+  position: absolute;
+  display: inline-block;
+  left: 100%;
+  width: 12.5vw;
+  transform: translate3d(8vw, -1vw, 0)
+}
+.capt {
+  position: absolute;
+  font-size: 0.7vw;
+  transform: translateY(100%);
+}
+strong {
+  font-size: 0.6vw;
+  position: absolute;
+  transform: translate3d(0.5vw, 0.3vw, 0);
+  display: inline-block;
+}
+.longH {
+  font-size: 0.8vw;
+  position: absolute;
+  transform: translate3d(-0.3vw, 0vw, 0);
+  display: inline-block;
+}
+.pdattr input {
+  width: 59%;
+  text-align: center;
+  padding-bottom: 0.4vw;
+  font-size: 1.4vw;
+  letter-spacing: 0.1vw;
+  border-bottom: #d0fff6 1px solid;
+}
+.Profs {
+  vertical-align: top;
+}
+.Profs .aSmallCol {
+  vertical-align: top;
+  border: 0px solid;
+}
+.Profs .aSmallCol h6 {
+  margin: 1vw auto;
+}
+.profTitle {
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1vw;
+  letter-spacing: 0.08vw;
+  margin-bottom: 1vw;
+}
+.smallInput, .slash {
+  display: inline-block;
+  text-align: center;
+}
+.slash {
+  width: 20%;
+  font-size: 2vw;
+  line-height: 1.2vw;
+}
+.smallInput {
+  text-align: center;
+  width: 40%;
+  padding-bottom: 0.7vw;
+  font-size: 1.2vw;
+  letter-spacing: 0.1vw;
+  border-bottom: #d0fff6 1px solid;
+}
+.wdiv {
+  width: 30%;
+  display: inline-block;
+  margin-right: 5%;
+}
+.wdiv:last-child {
+  margin-right: 0px;
+}

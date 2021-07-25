@@ -1,0 +1,63 @@
+.CharactersMenu {
+  width: 90vw;
+  height: 90vh;
+  padding: 5vh 5vw;
+}
+.CharactersMenu h1 {
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.3vw;
+  font-stretch: ultra-condensed !important;
+  font-size: 2.5vw;
+  color: #ffc6fe
+}
+.CharactersMenu .Menu {
+  margin: 5vh auto;
+  border:rgb(52, 39, 55) 3vw solid;
+  height: auto;
+  padding: 2vw;
+  width: 80vw;
+  background: rgba(40, 44, 52, 1);
+  min-height: 50vh;
+  text-align: center;
+}
+.caption h3 {
+  text-align: left !important;
+  color: #d0fff6;
+}
+.CharactersMenu .Menu a {
+  width: 24vw;
+  height: 24vw;
+  background: rgba(39, 48, 55, 1);
+  margin: 1vw;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.CharactersMenu .Menu a .caption {
+  width: 24vw;
+  position: absolute;
+  top: 100%;
+  text-align: left;
+  transform: translateY(-4.5vw);
+  transition: 0.5s all ease;
+  padding: 0.5vw 1vw;
+  background: rgba(33, 37, 44, 0.5);
+}
+.CharactersMenu .Menu a:hover > .caption {
+  transform: translateY(-100%);
+}
+.CharactersMenu .Menu a .caption h2, .CharactersMenu .Menu a .caption h3 {
+  text-transform: capitalize !important;
+}
+.CharactersMenu .Menu a .caption h2 {
+  letter-spacing: 0.2vw;
+}
+.CharactersMenu .Menu a .caption h3 {
+  letter-spacing: 0.1vw;
+  margin-bottom: 1vw;
+}
+.CharactersMenu .Menu a .caption p {
+  letter-spacing: 0.08vw;
+  line-height: 1.5vw;
+}
