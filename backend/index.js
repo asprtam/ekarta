@@ -3,7 +3,7 @@ const app = express();
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const MongoClient = require('mongodb').MongoClient;
-const uri = "uri do mongo"; // z wiadomych przyczyn nie podane
+const uri = "uri do mongo"; // z wiadomych przyczyn niepodane
 
 app.use(cors());
 app.use(express.json());
